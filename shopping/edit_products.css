@@ -1,0 +1,102 @@
+/* General Body Styling */
+body {
+    background-image: url('shop img.jpg');
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+h1 {
+    text-align: center;
+    color: #333;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+    margin: 0;
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Product Name Styling */
+li h2 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+/* Button Styling */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+form {
+    display: inline;
+}
+
+/* Delete Button Styling */
+input[type="submit"] {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #c82333;
+}
+
+/* Back Button Styling */
+a button {
+    background-color: #28a745;
+}
+
+a button:hover {
+    background-color: #218838;
+}
+
+/* Responsive Styling */
+@media (max-width: 600px) {
+    li {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    button, input[type="submit"] {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
